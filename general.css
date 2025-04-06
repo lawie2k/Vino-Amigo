@@ -46,7 +46,7 @@ a {
 }
 .icons {
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 .icons :hover {
   transform: scale(1.2);

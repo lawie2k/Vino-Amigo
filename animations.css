@@ -1,0 +1,63 @@
+@keyframes autoshowanimationslide {
+  from {
+    opacity: 0;
+    transform: translateY(200px) scale(0.3);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+@keyframes autoshowanimationfade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.latest-product h2 {
+  animation: autoshowanimationfade both;
+  animation-timeline: view(90% 10%);
+}
+.grid-items a {
+  animation: autoshowanimationslide both;
+  animation-timeline: view(70% 10%);
+}
+.product-button {
+  animation: autoshowanimationfade both;
+  animation-timeline: view(80% 10%);
+}
+
+.third-texts h2 {
+  animation: autoshowanimationfade both;
+  animation-timeline: view(90% 10%);
+}
+
+.third-texts p {
+  animation: autoshowanimationfade both;
+  animation-timeline: view(50% 10%);
+}
+.third-pic {
+  animation: autoshowanimationslide both;
+  animation-timeline: view(70% 10%);
+}
+
+.why-items h2 {
+  animation: autoshowanimationfade both;
+  animation-timeline: view(70% 10%);
+}
+
+.shop-box-item1 {
+  animation: autoshowanimationslide both;
+  animation-timeline: view(70% 10%);
+}
+.shop-box-item2 {
+  animation: autoshowanimationslide both;
+  animation-timeline: view(68% 15%);
+}
+.shop-box-item3 {
+  animation: autoshowanimationslide both;
+  animation-timeline: view(64% 20%);
+}
