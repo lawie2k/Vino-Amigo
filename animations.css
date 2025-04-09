@@ -8,6 +8,26 @@
     transform: translateY(0) scale(1);
   }
 }
+@keyframes autoshowanimationslideleft {
+  from {
+    opacity: 0;
+    transform: translateX(200px) scale(0.3);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+@keyframes autoshowanimationslideright {
+  from {
+    opacity: 0;
+    transform: translateX(-200px) scale(0.3);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
 @keyframes autoshowanimationfade {
   from {
     opacity: 0;
@@ -16,23 +36,70 @@
     opacity: 1;
   }
 }
-
-.latest-product h2 {
-  animation: autoshowanimationfade both;
-  animation-timeline: view(90% 10%);
-}
-.grid-items a {
-  animation: autoshowanimationslide both;
+.about-us img {
+  animation: autoshowanimationslideleft both;
   animation-timeline: view(70% 10%);
+}
+.about-us h2 {
+  animation: autoshowanimationfade both;
+  animation-timeline: view(50% 10%);
+}
+.about-us p {
+  animation: autoshowanimationfade both;
+  animation-timeline: view(70% 10%);
+}
+.shop h2 {
+  animation: autoshowanimationfade both;
+  animation-timeline: view(70% 10%);
+}
+.first-banner {
+  animation: autoshowanimationfade both;
+  animation-timeline: view(70% 10%);
+}
+.latest-product h3 {
+  animation: autoshowanimationfade both;
+  animation-timeline: view(70% 10%);
+}
+#item1 {
+  animation: autoshowanimationslideleft both;
+  animation-timeline: view(70% 10%);
+}
+#item2 {
+  animation: autoshowanimationslideleft both;
+  animation-timeline: view(70% 20%);
+}
+#item3 {
+  animation: autoshowanimationslideleft both;
+  animation-timeline: view(70% 30%);
+}
+#item4 {
+  animation: autoshowanimationfade both;
+  animation-timeline: view(70% 40%);
+}
+#item5 {
+  animation: autoshowanimationslideright both;
+  animation-timeline: view(70% 10%);
+}
+#item6 {
+  animation: autoshowanimationslideright both;
+  animation-timeline: view(70% 20%);
+}
+#item7 {
+  animation: autoshowanimationslideright both;
+  animation-timeline: view(70% 30%);
+}
+#item8 {
+  animation: autoshowanimationslideright both;
+  animation-timeline: view(70% 40%);
 }
 .product-button {
   animation: autoshowanimationfade both;
-  animation-timeline: view(80% 10%);
+  animation-timeline: view(75% 10%);
 }
 
 .third-texts h2 {
   animation: autoshowanimationfade both;
-  animation-timeline: view(90% 10%);
+  animation-timeline: view(80% 10%);
 }
 
 .third-texts p {
@@ -60,4 +127,90 @@
 .shop-box-item3 {
   animation: autoshowanimationslide both;
   animation-timeline: view(64% 20%);
+}
+.categories h2 {
+  animation: autoshowanimationfade both;
+  animation-timeline: view(70% 10%);
+}
+.wine {
+  animation: autoshowanimationfade both;
+  animation-timeline: view(70% 5%);
+}
+.beer {
+  animation: autoshowanimationfade both;
+  animation-timeline: view(65% 10%);
+}
+.spirits {
+  animation: autoshowanimationfade both;
+  animation-timeline: view(60% 15%);
+}
+#pic1 {
+  animation: autoshowanimationfade both;
+  animation-timeline: view(95% 5%);
+}
+#pic2 {
+  animation: autoshowanimationfade both;
+  animation-timeline: view(90% 15%);
+}
+#pic3 {
+  animation: autoshowanimationfade both;
+  animation-timeline: view(85% 20%);
+}
+#pic4 {
+  animation: autoshowanimationfade both;
+  animation-timeline: view(80% 5%);
+}
+#pic5 {
+  animation: autoshowanimationfade both;
+  animation-timeline: view(75% 15%);
+}
+#pic6 {
+  animation: autoshowanimationfade both;
+  animation-timeline: view(70% 20%);
+}
+#pic7 {
+  animation: autoshowanimationfade both;
+  animation-timeline: view(65% 20%);
+}
+#pic8 {
+  animation: autoshowanimationfade both;
+  animation-timeline: view(60% 15%);
+}
+#pic9 {
+  animation: autoshowanimationfade both;
+  animation-timeline: view(55% 5%);
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  #item1 {
+    animation: autoshowanimationfade both;
+    animation-timeline: view(70% 10%);
+  }
+  #item2 {
+    animation: autoshowanimationfade both;
+    animation-timeline: view(70% 20%);
+  }
+  #item3 {
+    animation: autoshowanimationfade both;
+    animation-timeline: view(70% 10%);
+  }
+  #item4 {
+    animation: autoshowanimationfade both;
+    animation-timeline: view(70% 20%);
+  }
+  #item5 {
+    animation: autoshowanimationfade both;
+    animation-timeline: view(70% 10%);
+  }
+  #item6 {
+    animation: autoshowanimationfade both;
+    animation-timeline: view(70% 20%);
+  }
+  #item7 {
+    animation: autoshowanimationfade both;
+    animation-timeline: view(70% 10%);
+  }
+  #item8 {
+    animation: autoshowanimationfade both;
+    animation-timeline: view(70% 20%);
+  }
 }
