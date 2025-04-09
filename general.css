@@ -15,15 +15,22 @@ span {
 }
 
 .navbar {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(45px);
   display: flex;
   justify-content: space-between;
   padding: 20px;
   align-items: center;
+  z-index: 1000;
 }
 .navbar h2 {
+  padding-left: 50px;
   font-size: 36px;
   font-weight: 600;
   color: black;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
 }
 ul {
   display: flex;
@@ -47,6 +54,7 @@ a {
 .icons {
   display: flex;
   gap: 10px;
+  padding-right: 50px;
 }
 .icons :hover {
   transform: scale(1.2);

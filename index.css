@@ -40,13 +40,18 @@ html {
   transition: 1.5s;
 }
 /*---------------------------about section--------------------------------*/
+#about {
+  padding-top: 300px;
+  width: 100px;
+  height: 50px;
+  margin: auto;
+}
 .about-us {
   max-width: 1200px;
   max-height: 500px;
   display: flex;
   margin: auto;
   gap: 152px;
-  margin-top: 252px;
 }
 .about-us h2 {
   padding-top: 81px;
@@ -70,6 +75,12 @@ html {
   font-size: 16px;
 }
 /*-----------------------------------------------------------*/
+#shop {
+  padding-top: 300px;
+  width: 100px;
+  height: 50px;
+  margin: auto;
+}
 .shop {
   margin: auto;
   max-width: 1200px;
@@ -86,7 +97,6 @@ html {
   margin: 5px auto 0;
 }
 .shop h2 {
-  margin-top: 410px;
   font-size: 64px;
   font-weight: 900;
   margin-bottom: 51px;
@@ -224,7 +234,7 @@ html {
 /*-----------------------------------------------------------*/
 .why-items {
   user-select: none;
-  margin-top: 150px;
+  margin-top: 200px;
 }
 .why-items h2 {
   text-align: center;
@@ -243,11 +253,17 @@ html {
 }
 .shop-box {
   display: flex;
-  justify-content: space-between;
   margin: auto;
   max-width: 1200px;
+  gap: 50px;
 }
 /*-----------------------------------------------------------*/
+#gallery {
+  padding-top: 300px;
+  width: 100px;
+  height: 150px;
+  margin: auto;
+}
 .gallery {
   max-width: 1200px;
   margin: auto;
@@ -257,7 +273,6 @@ html {
   font-size: 64px;
   font-weight: 900;
   padding-bottom: 45px;
-  margin-top: 200px;
 }
 .gallery h2::after {
   content: "";
