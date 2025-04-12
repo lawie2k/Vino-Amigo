@@ -32,11 +32,25 @@
         </ul>
       </div>
       <div class="icons">
-        <a href=""><img src="icons/search.png" alt="" /></a>
-        <a href=""><img src="icons/cart4.png" alt="" /></a>
+        <input type="text" class="input" />
+        <button class="search-button">
+          <img src="icons/search.png" alt="" />
+        </button>
+        <button class="cart-button" id="cartButton">
+          <img src="icons/cart4.png" alt="" />
+        </button>
       </div>
     </div>
     <!-- navbar end -->
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-close">
+        <button id="closeSidebar"><i>X</i></button>
+      </div>
+      <div class="cart-menu">
+        <h2>My Cart</h2>
+        <div id="cartItems"></div>
+      </div>
+    </div>
 
     <!-- hero -->
     <div class="hero">
@@ -255,5 +269,6 @@
       </div>
     </footer>
     <!-- footer end -->
+    <script src="general.js"></script>
   </body>
 </html>
