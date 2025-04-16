@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-image: url(background/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.login {
+  width: 400px;
+  height: 700px;
+  background-color: white;
+  justify-self: center;
+  align-items: center;
+  margin-top: 80px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1), 20px 20px 10px rgba(0, 0, 0, 0.2); /* Bottom-right shadow */
+  backdrop-filter: blur(7.7px);
+  -webkit-backdrop-filter: blur(7.7px);
+}
+.login-label h1 {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+}
+.input {
+  justify-self: center;
+  padding-top: 100px;
+}
+.username label {
+  font-size: 24px;
+  color: white;
+}
+.username input {
+  width: 340px;
+  height: 30px;
+  font-size: 20px;
+  margin-bottom: 50px;
+  border-radius: 8px;
+  border: 0;
+}
+.password label {
+  font-size: 24px;
+  color: white;
+}
+.password input {
+  width: 340px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: 0;
+}
+.password a {
+  font-size: 10px;
+  color: white;
+}
+.login-button {
+  width: 320px;
+  height: 30px;
+  margin-top: 35px;
+  margin-left: 12px;
+  background-color: #8e1616;
+  color: white;
+  font-size: 16px;
+}
