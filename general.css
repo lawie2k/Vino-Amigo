@@ -12,7 +12,7 @@
 }
 /*-------------------------------------------------------*/
 span {
-  color: #d84040;
+  color: #8e1616;
 }
 /*-------------------------------------------------------*/
 .navbar {
@@ -30,12 +30,10 @@ span {
   font-size: 36px;
   font-weight: 600;
   color: black;
-  -webkit-text-stroke-color: black;
-  -webkit-text-stroke-width: 1px;
 }
 ul {
   display: flex;
-  gap: 20px;
+  gap: 40px;
   text-decoration: none;
   list-style: none;
 }
@@ -55,7 +53,6 @@ a {
 .icons {
   display: flex;
   gap: 10px;
-  padding-right: 50px;
 }
 .icons .input {
   font-size: 12px;
@@ -146,6 +143,8 @@ footer {
 .footer-content {
   display: flex;
   justify-content: space-between;
+  margin-left: 200px;
+  margin-right: 200px;
   padding: 50px 0;
 }
 .about {
