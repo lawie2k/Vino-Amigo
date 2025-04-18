@@ -17,11 +17,31 @@
     <title>Login form</title>
   </head>
   <body>
-    <div class="login">
+    <div class="register" id="register-form" style="display: none">
+      <div class="register-label">
+        <h1>Register</h1>
+      </div>
+      <div class="input">
+        <div class="register-username">
+          <label for="text">username<br /></label>
+          <input type="text" />
+        </div>
+        <div class="register-password">
+          <label for="password">password <br /></label>
+          <input type="password" />
+        </div>
+      </div>
+      <button class="create-acc-button">create account</button>
+      <div class="sign-in-button">
+        <p>have an account already? <button id="sign-in">sign in</button></p>
+      </div>
+    </div>
+
+    <div class="login" id="login-form">
       <div class="login-label">
         <h1>Login</h1>
       </div>
-      <div class="input">
+      <div class="input" action="index.php" method="post">
         <div class="username">
           <label for="text">username<br /></label>
           <input type="text" />
@@ -32,7 +52,11 @@
           <a href=""><br />forgot password </a>
         </div>
         <button class="login-button">login</button>
+        <div class="signup-button">
+          <p>dont have an account yet? <button id="sign-up">sign up</button></p>
+        </div>
       </div>
     </div>
+    <script src="login.js"></script>
   </body>
 </html>

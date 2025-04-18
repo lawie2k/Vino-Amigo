@@ -24,8 +24,7 @@ body {
   backdrop-filter: blur(7.7px);
   -webkit-backdrop-filter: blur(7.7px);
 }
-.login-label h1 {
-  font-size: 40px;
+.login-label {
   text-align: center;
   padding-top: 40px;
   color: white;
@@ -43,7 +42,7 @@ body {
   height: 30px;
   font-size: 20px;
   margin-bottom: 50px;
-  border-radius: 8px;
+  border-radius: 10px;
   border: 0;
 }
 .password label {
@@ -54,12 +53,25 @@ body {
   width: 340px;
   height: 30px;
   font-size: 20px;
-  border-radius: 8px;
+  border-radius: 10px;
   border: 0;
 }
 .password a {
   font-size: 10px;
   color: white;
+}
+.signup-button {
+  margin-top: 20px;
+  display: flex;
+  color: white;
+}
+#sign-up {
+  color: white;
+  background-color: transparent;
+  border: 0;
+}
+#sign-up:hover {
+  color: crimson;
 }
 .login-button {
   width: 320px;
@@ -69,4 +81,106 @@ body {
   background-color: #8e1616;
   color: white;
   font-size: 16px;
+  border: 0;
+  border-radius: 10px;
+}
+
+.login-button:hover {
+  background-color: white;
+  border: 1;
+  border-color: #8e1616;
+  color: #8e1616;
+  transition: 0.3s;
+}
+@media screen and (max-width: 393px) {
+  .login {
+    width: 350px;
+    justify-self: center;
+  }
+  .username input {
+    width: 320px;
+  }
+  .password input {
+    width: 320px;
+  }
+  .login-button {
+    width: 300px;
+  }
+}
+
+.register {
+  width: 400px;
+  height: 700px;
+  background-color: white;
+  justify-self: center;
+  align-items: center;
+  margin-top: 80px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1), 20px 20px 10px rgba(0, 0, 0, 0.2); /* Bottom-right shadow */
+  backdrop-filter: blur(7.7px);
+  -webkit-backdrop-filter: blur(7.7px);
+}
+.register-label {
+  text-align: center;
+  color: white;
+  padding-top: 40px;
+}
+.register-username label {
+  font-size: 16px;
+  color: white;
+}
+.register-username input {
+  width: 340px;
+  height: 30px;
+  font-size: 20px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  border: 0;
+}
+.register-password label {
+  color: white;
+  font-size: 16px;
+}
+.register-password input {
+  width: 340px;
+  height: 30px;
+  font-size: 20px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  border: 0;
+}
+.create-acc-button {
+  width: 320px;
+  height: 30px;
+  margin-top: 0px;
+  margin-left: 40px;
+  background-color: #8e1616;
+  color: white;
+  font-size: 16px;
+  border: 0;
+  border-radius: 10px;
+}
+.create-acc-button:hover {
+  background-color: white;
+  border: 1;
+  border-color: #8e1616;
+  color: #8e1616;
+  transition: 0.3s;
+}
+.sign-in-button {
+  margin-top: 15px;
+}
+.sign-in-button p {
+  color: white;
+  margin-left: 30px;
+}
+#sign-in {
+  color: white;
+  background-color: transparent;
+  border: 0;
+}
+#sign-in:hover {
+  color: crimson;
 }
